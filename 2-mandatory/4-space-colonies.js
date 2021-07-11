@@ -16,8 +16,8 @@
 */
 // npm test -- --testPathPattern 4-space-colonies
 
-function getSettlers(Voyagers) {
-  return Voyagers.filter(
+function getSettlers(voyagers) {
+  return voyagers.filter(
     (element) => element.includes("family") && element.startsWith("A")
   );
 }

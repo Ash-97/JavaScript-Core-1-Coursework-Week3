@@ -13,9 +13,7 @@ Write a function that:
 - Returns a new array containing the same elements, except sorted.
 */
 function sortArray(array) {
-  const slicedArray = array.slice();
-  const sortedArray = slicedArray.sort();
-  return sortedArray;
+  return array.sort();
 }
 
 /*

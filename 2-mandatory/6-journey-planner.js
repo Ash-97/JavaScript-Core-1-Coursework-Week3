@@ -139,7 +139,8 @@ function journeyPlanner(locations, transportMode) {
   return locations
     .filter((element) => element.includes(transportMode))
     .map((possibleLocations) => possibleLocations[0]);
-}*/
+}
+*/
 
 // npm test -- --testPathPattern 6-journey-planner
 
